@@ -31,7 +31,7 @@ y_pred = model.predict(X_test_tfidf)
 accuracy = accuracy_score(y_test, y_pred)
 print(f'Accuracy: {round(accuracy*100, 2)}%')
 
-# Confusion matrix (optional)
+# confusion matrix
 cm = confusion_matrix(y_test, y_pred)
 print('Confusion Matrix:')
 print(cm)
